@@ -1,0 +1,38 @@
+
+while true; do
+    echo "Please select an option:"
+    echo "1. List all files in the current directory"
+    echo "2. Show the free disk space available"
+    echo "3. Show the current path"
+    echo "4. Show the command history"
+    echo "5. Recursively backup files from a specified directory to BackupFolder"
+    echo "6. Exit"
+    read -p "Enter your choice: " choice
+    
+    case $choice in
+        1) 
+            ls -la
+            ;;
+        2) 
+            df -h
+            ;;
+        3) 
+            pwd
+            ;;
+        4) 
+            history
+            ;;
+        5) 
+            read -p "Enter directory name to backup: " dir_name
+            mkdir BackupFolder
+            cp -r "$dir_name" BackupFolder/
+            ls -la BackupFolder/
+            ;;
+        6) 
+            exit 0
+            ;;
+        *) 
+            echo "Invalid option. Please try again."
+            ;;
+    esac
+done
