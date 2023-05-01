@@ -1,0 +1,55 @@
+MemTotal:        4026540 kB
+MemFree:          143492 kB
+MemAvailable:    2690736 kB
+Buffers:          126388 kB
+Cached:          2560860 kB
+SwapCached:            0 kB
+Active:          1664356 kB
+Inactive:        1909264 kB
+Active(anon):     889144 kB
+Inactive(anon):      336 kB
+Active(file):     775212 kB
+Inactive(file):  1908928 kB
+Unevictable:        2468 kB
+Mlocked:            2468 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:              5892 kB
+Writeback:            96 kB
+AnonPages:        881684 kB
+Mapped:           402708 kB
+Shmem:               940 kB
+KReclaimable:     152568 kB
+Slab:             221288 kB
+SReclaimable:     152568 kB
+SUnreclaim:        68720 kB
+KernelStack:        7936 kB
+PageTables:        15296 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     2013268 kB
+Committed_AS:    3889080 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       34212 kB
+VmallocChunk:          0 kB
+Percpu:             1584 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    114688 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      149440 kB
+DirectMap2M:     4044800 kB
+DirectMap1G:     2097152 kB
+%Cpu(s):  0.0 us,  3.4 sy,  0.0 ni, 96.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+Bash version: 5.0.17(1)-release
